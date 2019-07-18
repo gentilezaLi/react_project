@@ -1,0 +1,38 @@
+.look {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.look .l_h {
+    width: 100%;
+    height: calc(0.5rem*2);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.look .l_con {
+    flex: 1;
+    overflow: auto;
+    background: lavenderblush;
+}
+
+.card {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.card span {
+    width: 75px;
+    height: 75px;
+    margin: 5px 9px;
+    display: inline-block;
+    background: lightcyan;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 75px;
+}

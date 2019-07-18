@@ -1,0 +1,12 @@
+.list {
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+
+.ite {
+    width: 300px;
+    height: 500px;
+    border: solid 1px #ccc;
+    margin-left: 5px;
+}

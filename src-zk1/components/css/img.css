@@ -1,0 +1,9 @@
+.tu {
+    width: 300px;
+    display: flex;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}

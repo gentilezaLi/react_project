@@ -1,0 +1,19 @@
+.left {
+    width: 100px;
+    height: 100%;
+}
+
+.ite {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.act {
+    background: white;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}

@@ -1,0 +1,32 @@
+.item {
+    width: calc(1.7rem*2);
+    height: calc(1rem*2);
+    border: solid 1px #ccc;
+    margin-top: 15px;
+    position: relative;
+    margin-left: 10px;
+}
+
+.item>span {
+    width: 50px;
+    height: calc(0.3rem*2);
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 25px;
+    background: #ccc;
+    line-height: calc(0.3rem*2);
+    text-align: center;
+}
+
+.item>b {
+    width: 30px;
+    height: 30px;
+    line-height: calc(0.3rem*2);
+    text-align: center;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    border-radius: 50%;
+    background: green;
+    color: white;
+}

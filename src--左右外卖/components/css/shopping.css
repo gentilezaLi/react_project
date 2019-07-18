@@ -1,0 +1,113 @@
+.shopping {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #999;
+}
+
+.shang {
+    width: 100%;
+    background: white;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.shang p {
+    height: 40px;
+    line-height: 40px;
+    margin-left: 10px;
+    border-bottom: solid 1px #ccc;
+}
+
+.shang .pp {
+    height: 50px;
+    line-height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.shang .pp b span {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background: lightskyblue;
+    margin-right: 10px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.shang .pp b b {
+    margin-right: 10px;
+}
+
+.shang .ppp {
+    text-align: right;
+    margin-right: 10px;
+}
+
+.xia {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    margin-top: 10px;
+}
+
+h4 {
+    height: 40px;
+    line-height: 40px;
+    margin-left: 10px;
+    border-bottom: solid 1px #ccc;
+    font-size: 20px;
+    color: lightskyblue;
+}
+
+.mm {
+    width: 100%;
+    border-bottom: solid 1px #ccc;
+}
+
+.mm p {
+    height: 50px;
+    line-height: 50px;
+    margin-left: 10px;
+}
+
+.mm p input {
+    width: 60%;
+    height: 30px;
+    border: solid 1px #ccc;
+    border-radius: 8px;
+    margin-left: 30px;
+    padding-left: 10px;
+}
+
+.btn {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn span {
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    display: inline-block;
+}
+
+.btn span:nth-child(2) {
+    color: lightskyblue;
+}
+
+.btn span:nth-child(3) {
+    background: orange;
+    color: white;
+    border-radius: 10px;
+}

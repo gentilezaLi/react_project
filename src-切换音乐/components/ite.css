@@ -1,0 +1,14 @@
+ .ite {
+     width: 100px;
+     height: 100px;
+ }
+ 
+ .actt {
+     width: 80px;
+     height: 80px;
+     background: pink;
+     text-align: center;
+     line-height: 90px;
+     font-size: 30px;
+     border-radius: 10px;
+ }

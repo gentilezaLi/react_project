@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+html,
+body,
+#root {
+    width: 100%;
+    height: 100%;
+}
+
+.wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.ite {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    border-bottom: solid 1px #ccc;
+}
+
+.ite span:nth-child(2) {
+    line-height: 80px;
+    margin-left: 10px;
+}
+
+.btn {
+    line-height: 35px;
+    margin-left: 180px;
+    border: solid 1px green;
+    width: 50px;
+    height: 35px;
+    display: inline-block;
+    text-align: center;
+    color: green;
+    margin-top: 20px;
+}
+
+.btn1 {
+    line-height: 35px;
+    margin-left: 180px;
+    border: solid 1px #ccc;
+    width: 50px;
+    height: 35px;
+    display: inline-block;
+    text-align: center;
+    color: #ccc;
+    margin-top: 20px;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}

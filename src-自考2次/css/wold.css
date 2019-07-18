@@ -1,0 +1,38 @@
+.wold {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.we_f {
+    width: 100%;
+    height: calc(0.44rem*2);
+    background: lightcyan;
+    border-bottom: solid 1px #ccc;
+    line-height: calc(0.44rem*2);
+}
+
+.w_c {
+    flex: 1;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.w_c_1 {
+    width: 100%;
+    height: calc(0.5rem*2);
+    line-height: calc(0.5rem*2);
+    background: red;
+    text-align: right;
+    font-size: 20px;
+}
+
+.w_c_2>span {
+    background: pink;
+}
+
+.act {
+    background: purple;
+}

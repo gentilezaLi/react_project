@@ -1,0 +1,100 @@
+.list {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    width: 100%;
+    height: calc(0.44rem*2);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: solid 1px #ccc;
+}
+
+.header a {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    line-height: calc(0.44rem*2);
+}
+
+.header .active {
+    border-bottom: solid 2px lightskyblue;
+    font-weight: 700;
+}
+
+.main {
+    flex: 1;
+    display: flex;
+    /* overflow: auto; */
+}
+
+.footer {
+    width: 100%;
+    height: calc(0.5rem*2);
+    background: #999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer div:nth-child(1) {
+    flex: 2;
+    position: relative;
+}
+
+.footer div:nth-child(1) p {
+    width: calc(0.6rem*2);
+    height: calc(0.6rem*2);
+    line-height: calc(0.6rem*2);
+    border-radius: 50%;
+    text-align: center;
+    display: block;
+    background: rgba(0, 0, 0, .8);
+    position: absolute;
+    left: 0.3rem;
+    top: -1rem;
+}
+
+.footer div:nth-child(1) p span {
+    width: calc(0.5rem*2);
+    height: calc(0.5rem*2);
+    line-height: calc(0.5rem*2);
+    background: rgb(114, 48, 221);
+    border-radius: 50%;
+    text-align: center;
+    display: block;
+    font-size: 30px;
+    color: white;
+    margin-left: 0.1rem;
+    margin-top: 0.1rem;
+}
+
+.footer div:nth-child(1) p b {
+    background: red;
+    position: absolute;
+    top: 0;
+    left: 0.7rem;
+    width: 20px;
+    height: 0.4rem;
+    display: block;
+    text-align: center;
+    line-height: 0.4rem;
+    border-radius: 8px;
+    color: white;
+}
+
+.footer div:nth-child(2) {
+    flex: 4;
+}
+
+.footer div:nth-child(3) {
+    flex: 3;
+    background: limegreen;
+    text-align: center;
+    color: white;
+    line-height: calc(0.5rem*2);
+}

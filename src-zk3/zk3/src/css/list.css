@@ -1,0 +1,29 @@
+.list {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex: 1;
+    overflow: auto;
+}
+
+.footer {
+    width: 100%;
+    height: calc(0.5rem*2);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #ccc;
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer .active {
+    color: red;
+}

@@ -1,0 +1,28 @@
+.che {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid 1px #ccc;
+    line-height: 38px;
+}
+
+.che span:nth-child(1) {
+    border: solid 1px #ccc;
+    color: #ccc;
+    flex-shrink: 1;
+    padding: 0 22px;
+}
+
+.che span:nth-child(2) {
+    border: solid 1px #ccc;
+    color: #ccc;
+    padding: 0 22px;
+}
+
+.che span:nth-child(3) {
+    border: solid 1px #ccc;
+    color: red;
+    padding: 0 10px;
+}

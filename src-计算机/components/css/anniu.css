@@ -1,0 +1,15 @@
+.anniu {
+    width: 80px;
+    height: 80px;
+    margin: 6.8px;
+}
+
+span {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    background: rgb(231, 229, 229);
+    text-align: center;
+    line-height: 80px;
+    font-size: 30px;
+}

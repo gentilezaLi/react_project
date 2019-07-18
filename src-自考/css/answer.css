@@ -1,0 +1,32 @@
+.answer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.answer .a_h {
+    width: 100%;
+    height: calc(0.5rem*2);
+    background: lightskyblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.answer h4 {
+    width: 100%;
+    height: calc(0.5rem*2);
+    background: skyblue;
+    line-height: calc(0.5rem*2);
+}
+
+.answer .a_con {
+    flex: 1;
+    overflow: auto;
+    background: lavenderblush;
+}
+
+.action {
+    background: red;
+}

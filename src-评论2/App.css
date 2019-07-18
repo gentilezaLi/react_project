@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+html,
+body,
+#root {
+    width: 100%;
+    height: 100%;
+}
+
+.app {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    width: 100%;
+    height: 44px;
+    display: flex;
+    line-height: 44px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 1px #ccc;
+}
+
+.header span {
+    width: 80px;
+    height: 30px;
+    display: inline-block;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 8px;
+    border: solid 1px red;
+}
+
+.main {
+    flex: 1;
+    overflow: auto;
+}
+
+.footer {
+    width: 100%;
+    background: pink;
+}

@@ -1,0 +1,1 @@
+export const video_audio = "/api/api/movie/index?movid=2596&app=fytv&device=android&version=3.0.2"

@@ -1,0 +1,64 @@
+.home {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    width: 100%;
+    height: calc(0.5rem*2);
+    background: red;
+    line-height: calc(0.5rem*2);
+    text-align: center;
+    color: white;
+}
+
+.vid {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.vid h1 {
+    width: 100%;
+    text-align: center;
+}
+
+.haha {
+    width: 100%;
+    height: calc(0.44rem*2);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.con1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.con1 a {
+    text-decoration: none;
+    color: black;
+    height: calc(0.44rem*2);
+    line-height: calc(0.44rem*2);
+}
+
+.con1 .active {
+    color: red;
+    border-bottom: solid 1px red;
+}
+
+.main {
+    overflow: auto;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background: pink;
+}

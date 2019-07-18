@@ -1,0 +1,33 @@
+.listen {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.tou {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.tou span {
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.tou a {
+    text-decoration: none;
+    color: red;
+    border: solid 1px red;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.tou .active {
+    background: red;
+    color: white;
+}

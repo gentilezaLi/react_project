@@ -1,0 +1,35 @@
+.my {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.m_h {
+    width: 100%;
+    height: calc(0.44rem*2);
+    background: pink;
+    text-align: center;
+    line-height: calc(0.44rem*2);
+}
+
+.m_c {
+    flex: 1;
+    overflow: auto;
+}
+
+.ite {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ite span {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    border: solid 1px #ccc;
+    border-radius: 50%;
+    margin: 10px;
+}

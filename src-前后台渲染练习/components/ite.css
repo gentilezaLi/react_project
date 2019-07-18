@@ -1,0 +1,16 @@
+.ite {
+    width: 90%;
+    height: 80px;
+    margin: 5%;
+    border: solid 1px #ccc;
+    border-radius: 10px;
+}
+
+.ite p {
+    margin-left: 5%;
+    line-height: 20px;
+}
+
+.act {
+    background: pink;
+}

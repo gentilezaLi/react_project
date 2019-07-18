@@ -1,0 +1,22 @@
+.ite {
+    width: 90%;
+    border: solid 1px red;
+    margin: 10px auto;
+}
+
+.ite>p {
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.ite>img {
+    width: 100%;
+}
+
+.box {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+}

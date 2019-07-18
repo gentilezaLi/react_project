@@ -1,0 +1,22 @@
+.shi {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+span {
+    width: 32%;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    background: #ccc;
+    margin-top: 5px;
+}
+
+span:active {
+    background: purple;
+}

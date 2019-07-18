@@ -1,0 +1,23 @@
+.jieshao {
+    width: 100%;
+}
+
+.jieshao p:nth-child(1) {
+    color: red;
+    font-size: 30px;
+}
+
+.jieshao p:nth-child(2) {
+    color: black;
+    font-size: 24px;
+}
+
+.jieshao p:nth-child(3) {
+    color: rgb(70, 70, 70);
+    font-size: 20px;
+}
+
+.jieshao p:nth-child(4) {
+    color: rgb(114, 112, 112);
+    font-size: 20px;
+}
